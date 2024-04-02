@@ -76,7 +76,7 @@ _Retrieving updates from another repository and updating local repos_
 | `git push -u origin [branch name]` | Push changes to the remote repository (and remember the branch) |
 | `git push` | Uploads all local branch commits to GitHub (remembered branch) |
 | `git push origin --delete [branch-name]` | Delete a remote branch |
-| `git pull	` | Update local repository to the newest commit |
+| `git pull	` | Updates current local working branch with all new commits from the corresponding remote branch on GitHub. |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git` | Check |
 
